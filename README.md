@@ -53,8 +53,6 @@ Planned core entities include:
 
 The database is designed around tenant isolation, relational integrity, data consistency, and future integration with other services.
 
-```
-
 The repository structure will evolve as backend development, database implementation, testing, and application integration progress.
 
 ## 🔗 Integration with Other Microservices
