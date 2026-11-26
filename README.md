@@ -25,20 +25,6 @@ The CRM microservice aims to provide:
 - **Multi-Tenancy:** Supporting multiple independent library organizations and their branches.
 - **Integration:** Communicating with other ERP microservices through defined APIs and events.
 
-## 🏗️ Planned Technology Stack
-
-| Technology | Purpose |
-|---|---|
-| C# | Primary programming language |
-| .NET 10 | Application platform |
-| ASP.NET Core Web API | CRM backend |
-| SQL Server | Relational database |
-| Entity Framework Core | Database access and migrations |
-| SignalR | Real-time communication |
-| Blazor | Employee and customer interfaces |
-| xUnit | Automated testing |
-| Git & GitHub | Version control and collaboration |
-
 ## 🗄️ Database Design
 
 The initial database design focuses on customer relationships, conversations, service requests, staff profiles, and audit history.
@@ -67,24 +53,6 @@ Planned core entities include:
 
 The database is designed around tenant isolation, relational integrity, data consistency, and future integration with other services.
 
-## 📁 Repository Structure
-
-```text
-Library-ERP-CRM/
-│
-├── docs/
-│   └── CRM_Database_Design_v0.1.md
-│
-├── database/
-│   └── CRM_Initial_Schema_v0.1.sql
-│
-├── src/
-│   └── (CRM application source code)
-│
-├── tests/
-│   └── (Automated tests)
-│
-└── README.md
 ```
 
 The repository structure will evolve as backend development, database implementation, testing, and application integration progress.
